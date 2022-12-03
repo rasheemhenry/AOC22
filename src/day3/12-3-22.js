@@ -1,6 +1,6 @@
 const { match } = require('assert');
 const fs = require('fs');
-fs.readFile('./inputs/12-3-22-input.txt', 'utf8', (err, data) => {
+fs.readFile('../../inputs/12-3-22-input.txt', 'utf8', (err, data) => {
     if (err) {
     console.error(err);
     return;
